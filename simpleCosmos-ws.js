@@ -3,7 +3,6 @@
 // Coded by @atmon3r for Bitcanna 💚
 
 import WebSocket from 'ws';
-
 const ws = new WebSocket('ws://seed1.bitcanna.io:26657/websocket');
 
 ws.on('open', function open() {
