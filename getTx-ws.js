@@ -1,7 +1,5 @@
 import WebSocket from 'ws';
 import crypto from 'crypto';
- 
-
 
 const ws = new WebSocket('ws://seed1.bitcanna.io:26657/websocket'); 
 
