@@ -5,7 +5,7 @@ import WebSocket from 'ws';
 const ws = new WebSocket('ws://osmosis.strange.love:26657/websocket');
 
 ws.on('open', function open() {
-  console.log('Connected on Osmosis blockchain form WebSocket');
+  console.log('Connected on Osmosis blockchain from WebSocket');
   ws.send(JSON.stringify({
     "method":"subscribe",
     "params": ["tm.event='NewBlock'"],
