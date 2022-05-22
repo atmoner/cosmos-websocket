@@ -1,6 +1,5 @@
-// Call osmosis webSocket from tendermint
+// Call Osmosis webSocket from tendermint
 // https://docs.tendermint.com/master/rpc/
-// Coded by @atmoner for Bitcanna 💚
 
 import WebSocket from 'ws';
 const ws = new WebSocket('ws://osmosis.strange.love:26657/websocket');
